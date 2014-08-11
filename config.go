@@ -39,6 +39,7 @@ func init() {
 		"dnsimple":     "terraform-provider-dnsimple",
 		"consul":       "terraform-provider-consul",
 		"cloudflare":   "terraform-provider-cloudflare",
+		"dummy":        "terraform-provider-dummy",
 	}
 	BuiltinConfig.Provisioners = map[string]string{
 		"local-exec":  "terraform-provisioner-local-exec",
